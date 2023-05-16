@@ -18,7 +18,6 @@
             <td><b>Cantidad</b></td>
             <td><b>Precio Uni.</b></td>
             <td><b>Total Producto</b></td>
-
         </tr>';
 
         //variables para las formulas

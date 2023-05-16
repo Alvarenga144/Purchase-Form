@@ -22,9 +22,9 @@
                     <form action="php/procesarFactura.php" method="POST" id="formDinamico">                    
                         <table class="table table-bordered" id="table1">
                             <tr class="table-success">
-                                <th class="col-2">Numero Factura</th>
-                                <th class="col-5">Nombre Cliente</th>
-                                <th class="col-5">Direccion</th>
+                                <th class="col-2">Number Ticket</th>
+                                <th class="col-5">Customer</th>
+                                <th class="col-5">Address</th>
                             </tr>
                             <tbody id="tblContenido1">
                                 <tr class="tblFilaStatic row-12">
@@ -46,18 +46,18 @@
                         </table> 
                         <div class="row text-center pb-2">
                             <div class="col-lg-12 col-md-12 col-sm-12">
-                                <button class="btn btn-primary btn-sm" id="btnAdd">Agregar más Productos</button>
+                                <button class="btn btn-primary btn-sm" id="btnAdd">Add Product</button>
                             </div>
                         </div>
                         
                         <!--           SEGUNDA TABLA                -->
                         <table class="table table-bordered" id="table2">
                             <tr class="table-success">
-                                <th class="col-4">Nombre Producto</th>
-                                <th class="col-3">Categoria</th>
-                                <th class="col-2">Cantidad</th>
-                                <th class="col-2">Precio Uni.</th>
-                                <th class="col-1">Accion</th>
+                                <th class="col-4">Product</th>
+                                <th class="col-3">Category</th>
+                                <th class="col-2">Quantity</th>
+                                <th class="col-2">Unit price</th>
+                                <th class="col-1">Actions</th>
                             </tr>
                             <tbody id="tblContenido2">
                                 <tr class="tblFila2 row-12">
@@ -66,11 +66,13 @@
                                     </td>
                                     <td>
                                         <select name="sCategoria" id="sCate" class="form-control" data-validetta="required">
-                                            <option value="Lacteos">Lacteos</option>
-                                            <option value="Verduras">Verduras</option>
-                                            <option value="Bebidas">Bebidas</option>
-                                            <option value="Limpieza">Limpieza</option>
-                                            <option value="Carnes">Carnes</option>
+                                            <option value="Lacteos">Fruits, Vegetables</option>
+                                            <option value="Verduras">Bakery, Coffee</option>
+                                            <option value="Bebidas">Drinks, Milky</option>
+                                            <option value="Limpieza">Hygiene, Cleanliness</option>
+                                            <option value="Carnes">Wine, Spirits</option>
+                                            <option value="Carnes">Groceries, Candies</option>
+                                            <option value="Carnes">Meats and Soups</option>
                                         </select>
                                     </td>                                    
                                     <td>

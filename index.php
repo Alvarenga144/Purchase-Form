@@ -59,8 +59,9 @@
 
                         <!--           SEGUNDA TABLA                -->
                         <table class="table table-bordered table-striped table-dark" id="table2">
-                            <tr class="table">
-                                <th class="col-4 text-light">Product</th>
+                            <tr class="table row-12">
+                                <th class="col-1 text-light ">Code</th>
+                                <th class="col-3 text-light">Product</th>
                                 <th class="col-3 text-light">Category</th>
                                 <th class="col-2 text-light">Quantity</th>
                                 <th class="col-2 text-light">Unit price</th>
@@ -69,10 +70,13 @@
                             <tbody id="tblContenido2">
                                 <tr class="tblFila2 row-12">
                                     <td>
+                                        <input id="idrow-0" value="0" type="text" name="txtId[]" class="form-control" readonly>
+                                    </td>
+                                    <td>
                                         <input type="text" name="txtNomProducto[]" class="form-control" data-validetta="required">
                                     </td>
                                     <td>
-                                        <select name="sCategoria" id="sCate" class="form-control" data-validetta="required">
+                                        <select name="sCategoria[]" id="sCate" class="form-control" data-validetta="required">
                                             <option value="F">Fruits, Vegetables</option>
                                             <option value="B">Bakery, Coffee</option>
                                             <option value="D">Drinks, Milky</option>

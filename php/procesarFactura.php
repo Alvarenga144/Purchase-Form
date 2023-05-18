@@ -31,9 +31,10 @@
         $totalFinal = 0;
 
 
-        for ($i=0; $i < count($_POST['txtNomProducto']); $i++) { 
+        for ($i=0; $i < count($_POST['txtId']); $i++) { 
 
             $table .= '<tr>
+                <td>'.$_POST['txtId'][$i].'</td>
                 <td>'.$_POST['txtNomProducto'][$i].'</td>
                 <td>'.$_POST['sCategoria'][$i].'</td>';
 
@@ -58,6 +59,7 @@
         }
 
         $table .= '<tr>
+            <td></td>
             <td></td>
             <td></td>
             <td></td>

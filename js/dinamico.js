@@ -4,11 +4,7 @@ jQuery(function () {
         e.preventDefault()
         var i = $('.tblFila2').length
         //console.log(i)
-
-        while () {
-            
-        }
-
+        var idcount = i++;
         var filas = `<tr class="tblFila2 row-12">
                         <td>
                             <input id="idrow-`+idcount+`" value="`+idcount+`" type="text" name="txtId[]" class="form-control" readonly>

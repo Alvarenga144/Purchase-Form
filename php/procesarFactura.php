@@ -13,6 +13,7 @@
             <td>'.$_POST['txtNombre'].'</td>
         </tr>
         <tr>
+            <td><b>Code</b></td>
             <td><b>Product</b></td>
             <td><b>Category</b></td>
             <td><b>Quantity</b></td>
@@ -55,7 +56,6 @@
 
                 $table .= '<td> $'.$totalProducto[$i].'</td>
             </tr>';
-            
         }
 
         $table .= '<tr>
@@ -64,12 +64,10 @@
             <td></td>
             <td></td>
             <td><b>TOTAL:</b></td>
-            <td>$'.$totalFinal.'</td>
+            <td><b>$'.$totalFinal.'</b></td>
 
         </tr>';
-
         $table .= '</table>';
-
         echo $table;
     }
 ?>

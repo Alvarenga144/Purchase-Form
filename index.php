@@ -31,10 +31,10 @@
                             <tbody id="tblContenido1">
                                 <tr class="tblFilaStatic row-12">
                                     <td>
-                                        <input type="number" name="txtNumFactura" class="form-control" data-validetta="required, number">
+                                        <input type="text" name="txtNumFactura" id="number-ticket" class="form-control" data-validetta="required, number" readonly>
                                     </td>
                                     <td>
-                                        <input type="text" name="txtNombre" class="form-control" data-validetta="required">
+                                        <input type="text" name="txtNombre" id="txtNombreCliente" class="form-control" data-validetta="required, maxLenght[50]">
                                     </td>
                                     <td>
                                         <input type="text" name="txtDireccion" class="form-control" data-validetta="required, maxLenght[50]">

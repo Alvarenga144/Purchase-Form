@@ -80,7 +80,18 @@ jQuery(function () {
 
 })
 
+const codeinput = document.getElementById('number-ticket'); 
+const nombreClie = document.getElementById('txtNombreCliente');
 
-function btnDelete(row) {
+nombreClie.addEventListener('click', ticketNumber)
+
+function ticketNumber () {
+    //alert('funcionaaa')
+    let random = Math.floor(Math.random() * 10000) + 1;
+    codeinput.setAttribute('value', random);
+}
+
+
+function btnDelete (row) {
     $(row).parent().parent().remove();
 }

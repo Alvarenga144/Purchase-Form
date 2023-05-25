@@ -5,19 +5,19 @@
     if(!empty($_POST)){
         $table = '<table class="table table-warning">
         <tr>
-            <td><b>Numero Factura</b></td>
-            <td><b>Cliente</b></td>
+            <td><b>Ticket Number</b></td>
+            <td><b>Cliente Name</b></td>
         </tr>
         <tr>
             <td>'.$_POST['txtNumFactura'].'</td>
             <td>'.$_POST['txtNombre'].'</td>
         </tr>
         <tr>
-            <td><b>Nombre Producto</b></td>
-            <td><b>Categoria</b></td>
-            <td><b>Cantidad</b></td>
-            <td><b>Precio Uni.</b></td>
-            <td><b>Total Producto</b></td>
+            <td><b>Product</b></td>
+            <td><b>Category</b></td>
+            <td><b>Quantity</b></td>
+            <td><b>Unit Price</b></td>
+            <td><b>Sub Total</b></td>
         </tr>';
 
         //variables para las formulas
@@ -63,7 +63,7 @@
             <td></td>
             <td></td>
             <td></td>
-            <td><b>TOTAL</b></td>
+            <td><b>TOTAL:</b></td>
             <td>$'.$totalFinal.'</td>
 
         </tr>';

@@ -3,16 +3,24 @@
     //print_r($_POST)
     
     if(!empty($_POST)){
-        $table = '<table class="table table-warning">
-        <tr>
+        $table = '<table class="table table-sm table-bordered text-center">
+        <tr class="table-success">
             <td><b>Ticket Number</b></td>
             <td><b>Cliente Name</b></td>
-        </tr>
-        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            </tr>
+        <tr class="table-light">
             <td>'.$_POST['txtNumFactura'].'</td>
             <td>'.$_POST['txtNombre'].'</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
         </tr>
-        <tr>
+        <tr class="table-info">
             <td><b>Code</b></td>
             <td><b>Product</b></td>
             <td><b>Category</b></td>
@@ -34,7 +42,7 @@
 
         for ($i=0; $i < count($_POST['txtId']); $i++) { 
 
-            $table .= '<tr>
+            $table .= '<tr class="table-light">
                 <td>'.$_POST['txtId'][$i].'</td>
                 <td>'.$_POST['txtNomProducto'][$i].'</td>
                 <td>'.$_POST['sCategoria'][$i].'</td>';
@@ -58,15 +66,15 @@
             </tr>';
         }
 
-        $table .= '<tr>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td></td>
-            <td><b>TOTAL:</b></td>
-            <td><b>$'.$totalFinal.'</b></td>
+        $table .=   '<tr class="bg-warning">
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td><b>TOTAL:</b></td>
+                        <td><b>$'.$totalFinal.'</b></td>
 
-        </tr>';
+                    </tr>';
         $table .= '</table>';
         echo $table;
     }

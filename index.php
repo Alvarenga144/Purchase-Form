@@ -20,9 +20,9 @@
 
         <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12">
-                <div class="table-responsive">
+                <div>
                     <form action="php/procesarFactura.php" method="POST" id="formDinamico">
-                        <table class="table table-bordered table-dark" id="table1">
+                        <table class="table table-bordered table-dark table-responsive" id="table1">
                             <tr class="table">
                                 <th class="col-2 text-light">Number Ticket</th>
                                 <th class="col-5 text-light">Customer</th>
@@ -58,7 +58,7 @@
                         </div>
 
                         <!--           SEGUNDA TABLA                -->
-                        <table class="table table-bordered table-striped table-dark" id="table2">
+                        <table class="table table-bordered table-striped table-dark table-responsive" id="table2">
                             <tr class="table row-12">
                                 <th class="col-1 text-light ">Code</th>
                                 <th class="col-3 text-light">Product</th>

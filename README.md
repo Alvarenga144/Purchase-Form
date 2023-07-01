@@ -1,9 +1,7 @@
 # PURCHASE FORM 💲✅
 Make your bill, insert many products with its details and process the bill and generate the final ticket, that include the data about your customer.
 
-<code>
-    <img src="./assets/PurchaseForm.gif" />
-</code>
+<img src="./assets/PurchaseForm.gif" />
 
 <hr>
 

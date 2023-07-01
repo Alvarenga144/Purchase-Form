@@ -2,6 +2,10 @@
 
 Make your bill, insert many products with it´s details and process the bill an generate the final ticket, that include the data about your customer.
 
+<code>
+    <img src="./assets/PurchaseForm.gif" />
+</code>
+
 ## Installation
 
 - Requirements.

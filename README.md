@@ -1,7 +1,41 @@
-# PURCHASE FORM 💲✅
-Make your bill, insert many products with its details and process the bill and generate the final ticket, that include the data about your customer.
+# PURCHASE FORM / FORMULARIO DE COMPRA 💲✅
+
+Genera tu factura, ingresa muchos productos con sus detalles, procesa la factura y genera el ticket final que incluye los datos de tu cliente.
 
 <img src="./assets/PurchaseForm.gif" />
+
+## Instalación ⬇️
+
+**Requisitos👮🏻‍♂️**
+
+Debes tener instalado en tu computadora un programa de servidor local, como XAMPP, para ejecutar los archivos PHP.
+
+**Pasos🚶🏻‍♂️**
+
+- Descarga el código en tu computadora y extrae el archivo .ZIP 💻
+- Coloca el código de la carpeta en la carpeta 'htdocs' de XAMPP ✅
+- Inicia XAMPP y abre tu navegador ⚛️
+- Ingresa la siguiente URL:
+
+```
+http://localhost/facturacionproductos/
+```
+
+Ahora podrás ver el formulario de compra y comenzar a usarlo.
+
+## Flujo de trabajo ▶️🔄
+
+Cuando ingresas el nombre del cliente, el sistema agrega automáticamente un número aleatorio para el ticket. Agrega la dirección del cliente, que es información adicional. Ahora puedes insertar los productos que el cliente comprará. Puedes agregar todos los productos que desees. Si deseas eliminar un producto o varios productos, simplemente haz clic en el botón de basura a la derecha y elimínalos. Y cuando hayas insertado todos tus productos, haz clic en el botón "Guardar y facturar" y obtén tu factura en la tabla de abajo. Actualiza la página para crear una nueva factura. (Agregaré un botón "Limpiar formulario" en la próxima actualización).
+
+## Historia del proyecto📖
+
+Este formulario de compra fue un examen de mi universidad, realizado con las herramientas web básicas: HTML y JavaScript. También agregamos Bootstrap para la apariencia. Decidí usar Bootstrap porque, en ese momento, era más rápido que usar solo CSS. En el aula, solo teníamos dos horas para hacer el examen. ¡Obtuve una calificación perfecta de 10/10! 🥳🍾
+
+<hr />
+
+## English
+
+Make your bill, insert many products with its details and process the bill and generate the final ticket, that include the data about your customer.
 
 <hr>
 
@@ -17,6 +51,7 @@ To run the PHP files.
 2. Put the folder´s code in htdocs' folder from XAMPP ✅
 3. Start XAMPP and go to your browser ⚛️
 4. Insert the next ULR: 
+
 ```
 http://localhost/facturacionproductos/
 ```
